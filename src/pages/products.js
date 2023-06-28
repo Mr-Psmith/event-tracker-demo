@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import MainNavi from "../components/main-navi";
+//import MainNavi from "../components/main-navi";
 
 function ProductsPage() {
     return <>
