@@ -12,7 +12,7 @@ function HomePage() {
     return  <>
         {/* <MainNavi /> */}
         <h1>The Home Page</h1>
-        <p>To the list of <Link to="/products">Products</Link></p>
+        <p>To the list of <Link to="products">Products</Link></p> {/* this is a relative path */}
         <p>
             <button onClick={navigateHandler} >To Product by button</button>
         </p>
